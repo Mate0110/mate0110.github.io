@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine&family=Mountains+of+Christmas:wght@400;700&display=swap');
 body{
     background-image: url(../images/support/hatter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Domine', serif;
+    
 }
 
 nav{
@@ -16,6 +21,10 @@ footer{
 
 h1, h2, h3{
     text-align: center;
+}
+
+h1, h2{
+    margin-top: 10px;
 }
 
 input[type='checkbox'] { 

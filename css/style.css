@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine&family=Mountains+of+Christmas:wght@400;700&display=swap');
 body{
     background-color: rgb(46, 138, 86);
-
+    font-family: 'Domine', serif;
 
 }
 nav{
@@ -73,7 +74,9 @@ nav{
      color:white;
 }
 
-
+.carousel-caption{
+    right: auto;
+}
 
 .carousel-item img {
     height: 900px;
@@ -505,59 +508,13 @@ background-image: url("../images/allatok.jpg");
     position: static;
 }
 
-/*állatok felsorolás*/
 
-/*.allatok-fo{
-    
-}
-
-.allatok-container{
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-}
-
-.allatok-keret{
-    display: flex;
-    flex-direction: row;
-    background-color: #013220;
-    width: 500px;
-    border-radius: 20px;
-    overflow: hidden;
-    margin:0px 5px 0px 5px;
-    height: 150px;
-}
-
-.allatok-kep{
-    width: 240px;
-    height: auto;
-
-}
-
-.allatok-szovegek{
-    margin: 10px 0px 10px 0px;
-    max-width: 330px;
-    flex: 1;
-}
-
-.allatok-card-h2{
-    text-align: center;
-}
-
-.allatok-card-p{
-    margin-left: 10px;
-    margin-right: 10px;
-}
- 
-
- .background{
-    background-image: url(../images/animals-html/fako-keselyu.jpeg);
-
- }*/
 
  #allatok-focim{
     text-align: center;
     color: white;
+    margin-top: 15px;
+    margin-bottom: 20px;
 
  }
 
@@ -566,6 +523,7 @@ background-image: url("../images/allatok.jpg");
      flex-wrap: wrap;
      justify-content: center;
      margin: 0 auto;
+     margin-bottom: 20px;
      max-width: 1480px;
 
  }
@@ -726,6 +684,7 @@ background-image: url("../images/allatok.jpg");
     justify-content: center;
     border-radius: 20px;
     color: white;
+    padding-top: 2px;
 
 }
 
