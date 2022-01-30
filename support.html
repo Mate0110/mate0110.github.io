@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/support-style.css">
+    <link rel="icon" type="image/x-icon" href="./images/icon.png">
+
+    <title>Fővárosi Állatkert</title>
+</head>
+
+<body>
+    <nav>
+        <div class="navbar navbar-expand-md navbar-light">
+            <a href="./index.html" class="navbar-brand"> <img src="./images/zoo_logo.png"
+                    class="d-inline-block align-top" id="logo_size" alt="zoo_logo"> <span
+                    class="hidden">Állatkert</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu"
+                aria-controls="toggleMobileMenu" aria-expanded="false" aria-lable="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="toggleMobileMenu">
+                <ul class="navbar-nav ms-auto text-center">
+                    <li>
+                        <a class="nav-link" href="./animals.html">Állatok</a>
+                    </li>
+
+                    <li>
+                        <a class="nav-link" href="./images/terkep.jpg">Térkép</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="./support.html">Támogatás</a>
+                    </li>
+                    <li>
+                        <a href="./tickets.html" class="myButton">Jegyvásárlás</a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+
+
+    <div class="orokbefogadas-form-container">
+        <form>
+            <h1>Örökbefogadás</h1>
+            <h3>Válassza ki az örökbefogadni kívánt állatot:</h3>
+            <div class="checkbox-container">
+                <div class="kep-checkbox">
+                    <input type="checkbox" id="vizilo" name="vizilo" value="vizilo">
+                    <label for="vizilo"> <img src="./images/animals-html/vizilo.jpg" alt="Viziló"
+                            class="checkbox-img-size"></label>
+                </div>
+
+                <div class="kep-checkbox">
+                    <input type="checkbox" id="papagaj" name="papagaj" value="papagaj">
+                    <label for="vehicle2"> <img src="./images/animals-html/kiralypapagaj.jpeg" alt="Papagáj"
+                            class="checkbox-img-size"></label>
+                </div>
+                <div class="kep-checkbox">
+                    <input type="checkbox" id="teknos" name="teknos" value="teknos">
+                    <label for="vehicle3"> <img src="./images/animals-html/teknos.jpg" alt="Teknős"
+                            class="checkbox-img-size"></label>
+                </div>
+            </div>
+
+            <h2>A nevelő adatai:</h2>
+            <div class="orokbefogadas-adatok">
+                <div class="form-group">
+                    <label for="fname">Vezetéknév:</label>
+                    <input type="text" id="fname" name="fname" class="orokbefogadas-szelesseg" required>
+                </div>
+                <div class="form-group"><label for="lname">Keresztnév:</label>
+                    <input type="text" id="lname" name="lname" class="orokbefogadas-szelesseg" required>
+                </div>
+                <div class="form-group"><label for="birthday">Születési időpont:</label>
+                    <input type="date" id="birthday" name="birthday" class="orokbefogadas-szelesseg" required>
+                </div>
+                <div class="form-group"><label for="iranyitoszam">Irányítószám:</label>
+                    <input type="number" id="iranyitoszam" name="iranyitoszam" class="orokbefogadas-szelesseg" required>
+                </div>
+                <div class="form-group"><label for="telepules">Település:</label>
+                    <input type="text" id="telepules" name="telepules" class="orokbefogadas-szelesseg" required>
+                </div>
+                <div class="form-group"><label for="utcahazszam">Utca, házszám:</label>
+                    <input type="text" id="utcahazszam" name="utcahazszam" class="orokbefogadas-szelesseg" required>
+                </div>
+                <div class="form-group"><label for="telefonszam">Telefonszám:</label>
+                    <input type="number" id="telefonszam" name="telefonszam" class="orokbefogadas-szelesseg" required>
+                </div>
+                <div class="form-group"><label for="emailcim">E-mail cím:</label>
+                    <input type="email" id="emailcim" name="emailcim" class="orokbefogadas-szelesseg" required>
+                </div>
+            </div>
+            <h2>Támogatás típusa:</h2>
+            <div class="orokbefogadas-adatok">
+                <div class="tipus-checkbox">
+                    <input type="checkbox" id="tipus1" name="tipus1" value="tipus1">
+                    <label for="tipus1" class="tipusok">10 000 FT adomány, alap kategória: tartalmaz 1 db oklevelet, életrajzi lapot,
+                        állat
+                        fényképet és egy nevelőszülői kártyát, amely ingyenes belépőjegyként szolgál az évente két
+                        alkalommal megtartott Állatkerti Nevelőszülők Napján az állatkertbe, valamint kedvezményt
+                        biztosít
+                        az állatkerti ajándékboltba. </label>
+                </div>
+
+                <div class="tipus-checkbox">
+                    <input type="checkbox" id="tipus2" name="tipus2" value="tipus2">
+                    <label for="tipus2" class="tipusok">15 000 FT adomány, prémium kategória: tartalmaz az alapcsomagon kívül egy darab
+                        egyszer felhasználható felnőtt állatlátogatói szelvényt, amely egyszeri belepésére jogosít az
+                        Állatkertbe 2022. dec. 31-ig felhasználhatóan.</label>
+                </div>
+                <input type="submit" value="Örökbefogadás" class="myButton" id="form-button">
+            </div>
+
+
+
+
+            
+        </form>
+
+    </div>
+
+
+    <footer>
+        <div class="footer-data">
+            <img src="./images/zoo_logo.png" id="footer-logo" alt="zoo_logo">
+            <p class="footer-p" id="footer-m"><strong>Minden jog fenntartva © Fővárosi Állat- és Növénykert</strong><br>
+                1146 Budapest, Állatkerti krt. 6-12. <br>
+                Telefon: (+36-1) 273-4900, <br>(+36-1) 273-4901</p>
+            <p id="opening" class="footer-p">
+                <strong>Nyitvatartás:</strong><br>
+                Hétfő-Csütörtök: 9:00–16:00<br>
+                Péntek: 9:00–14:00<br>
+                Szombat-Vasárnap: 9:00–16.00
+            </p>
+            <div class="mapouter">
+                <div class="gmap_canvas">
+                    <iframe width="350" height="190" id="gmap_canvas"
+                        src="https://maps.google.com/maps?q=%C3%A1llatkert&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

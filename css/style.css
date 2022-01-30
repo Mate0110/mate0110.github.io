@@ -1,0 +1,1023 @@
+body{
+    background-color: rgb(46, 138, 86);
+
+
+}
+nav{
+    width: 100%;
+    background: rgba(46, 138, 86, 0.3);
+    position: absolute;
+    z-index: 20;
+    
+}
+#logo_size{
+    width: 55px;
+    height: auto;
+}
+
+.navbar{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    max-width: 1480px;
+    margin: 0 auto;
+    
+}
+
+.navbar-light .navbar-toggler{
+    margin-right: 15px;
+}
+
+.hidden{
+    display: none;
+}
+
+.dropdown-menu.show{
+    text-align: center;
+    background: rgba(46, 138, 86, 0.3);
+    border: 0px;
+    
+}
+.div-button{
+    background-color: #013220; 
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+
+.myButton {
+	background-color:#f9b42a;
+	border-radius:22px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:5px 15px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background: #FF8C00;
+    color:#ffffff;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+
+.dropdown-item{
+     color:white;
+}
+
+
+
+.carousel-item img {
+    height: 900px;
+    object-fit: cover;
+}
+
+#cards{
+    display: flex;
+    margin-top: 50px;
+    max-width: 1480px;
+    margin: 0 auto;
+    
+}
+
+.c-body {
+    height: 160px;
+    width: auto;
+    position:relative; 
+    overflow: hidden;
+  }    
+  .c-body:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0, 0.5);
+    transition: all .3s linear;
+  }
+  .c-body:hover:before { 
+    background: none;
+    
+  }
+
+  #card-1{
+      background-image: url(../images/cards/panda.jpeg);
+      background-repeat: no-repeat;
+  }
+
+  #card-2{
+    background-image: url(../images/cards/monguz.jpeg);
+    background-repeat: no-repeat;
+  }
+
+  #card-3{
+    background-image: url(../images/cards/papagaj.jpeg);
+    background-repeat: no-repeat;
+  }
+
+  #jegyvasarlas, #terkep{
+    margin-left: 20px;
+  }
+
+.card-edit{
+    margin-top: 50px;
+    width: 44rem;
+    
+    border: 0;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.title{
+    color:white;
+}
+
+
+.card_writing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.some-animals{
+    width: 100%;
+    height: fit-content;
+    margin-top: 50px;
+    background-color: #013220;
+}
+
+#grid-container{
+    width: 1480px;
+    margin: 0 auto;
+}
+
+.some-animals-h2{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: white;
+
+}
+
+
+.flamingo{
+    margin-right: 15%;
+    text-align: center;
+    
+}
+
+#flamingo-picture{
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+    height: auto;
+    width: 100%;
+    max-width: 300px;
+}
+
+.lion{
+    margin-right: 15%;
+    text-align: center;
+}
+
+#lion-picture{
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+    height: auto;
+    width: 100%;
+    max-width: 300px;
+}
+
+.frog{
+    text-align: center; 
+}
+
+#frog-picture{
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+    height: auto;
+    width: 100%;
+    max-width: 300px;
+}
+
+.row-edit{
+    margin: 0;
+
+}
+
+.content-edit{
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+
+.animal-h2{
+    padding-top: 30px ;
+}
+
+.animal-h2,h2, p{
+    color: white;
+}
+
+.flex-container{
+            
+
+    height: fit-content;
+    max-width: 1480px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    
+}
+
+.elso{
+
+    box-sizing: border-box;
+    flex: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.masodik{
+
+    box-sizing: border-box;
+    flex: 30%;
+    text-align: center;
+}
+.madar{
+    max-width: 300px;
+    padding-bottom: 14px;
+   
+}
+
+.flex-bg{
+    background-color: #013220;
+    width: 100%;
+    height: fit-content;
+    padding-top: 30px;
+}
+
+.orokbe-h2{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.orokbe-p{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.bttn {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: 100;
+    padding: 14px;
+    background-color: #F9B42A;
+    text-shadow: 1px 1px 20px #000000;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .bttn:hover {
+    background: #FF8C00;
+    color:#ffffff;
+    
+ }
+
+ .fade-in{
+     opacity: 0;
+     transition: opacity 400ms ease-in;
+ }
+
+ .fade-in.appear{
+     opacity: 1;
+ }
+
+ footer{
+     width: 100%;
+     height: fit-content;
+     background-color: rgb(46, 138, 86);
+ }
+
+.footer-data{
+    max-width: 1440px;
+    height: fit-content;
+    background-color: rgb(46, 138, 86);
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.footer-p{
+    padding-top: 75px;
+}
+
+#opening{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#footer-logo{
+    height: 195px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    
+}
+.footer-h2{
+    text-align: center;
+}
+.gmap_canvas{
+    text-align: center;
+}
+
+.links{
+    text-decoration: none;
+    color: white;
+}
+
+.mapouter{
+    margin-top:27px
+}
+/*tickets.html */
+
+.background-top{
+background-image: url("../images/allatok.jpg");
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#jegyvasarlas-container{
+    max-width: 1298px;
+    height: fit-content;
+    background-color: #013220;
+    color: white;
+    margin: 0 auto;
+    border: 1px solid #f9b42a;
+    margin-top: 20px;
+    padding-bottom: 1px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.jegyek{
+    border-bottom: 1px solid #f9b42a;
+}
+
+.jegytipus{
+
+    margin-top: 0.5%;
+    margin-left: 1%;
+    font-size: 20px;
+    flex: 1;
+}
+
+.ar{
+    margin-top: 0.5%;
+    margin-left: 1%;
+    font-size: 20px;
+}
+
+.form-group{
+    margin-top: 0.25%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.margin{
+    margin-bottom: 5px;
+    display: flex;
+}
+
+#submit_button{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 9px;
+    border: 0;
+}
+
+#leiras-container{
+    width: 100%;
+    background-color:#013220; 
+    padding-bottom: 5px;
+    height: 343px;
+    overflow: hidden;
+}
+
+#leiras{
+    max-width: 1298px;
+    margin:0 auto;
+    height: 342px;
+}
+
+.tickets-h1{
+    color: white;
+    text-align: center;
+}
+
+#legordulo-gomb{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 9px;
+    border: 0;
+    
+}
+
+#legordulo-gomb2{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 9px;
+    border: 0;
+}
+
+/* animals.html */
+
+.animal-container{
+    width: 1480px;
+    height: fit-content;
+    margin: 0 auto;
+}
+
+.animal-box-size{
+    flex: 1 1 0px;
+}
+
+.page-item:first-child .page-link{
+    border-radius: 20px;
+}
+
+.page-item:last-child .page-link{
+    border-radius: 20px;
+}
+
+.link-design{
+    border-radius: 20px;
+    transform: none;
+    background-color: rgba(51, 170, 51, .0);
+    color: white;
+
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+}
+
+.link-design:active{
+    background-color: #f9b42a;
+}
+
+.link-design:hover{
+    background-color: #f9b42a;
+    color: white;
+}
+
+.page-item.active .page-link{
+    background-color: #f9b42a;
+    border-color: white;
+}
+
+.page-pad{
+    padding: 10px
+
+}
+
+.paging-changes{
+    position: static;
+}
+
+/*állatok felsorolás*/
+
+/*.allatok-fo{
+    
+}
+
+.allatok-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.allatok-keret{
+    display: flex;
+    flex-direction: row;
+    background-color: #013220;
+    width: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin:0px 5px 0px 5px;
+    height: 150px;
+}
+
+.allatok-kep{
+    width: 240px;
+    height: auto;
+
+}
+
+.allatok-szovegek{
+    margin: 10px 0px 10px 0px;
+    max-width: 330px;
+    flex: 1;
+}
+
+.allatok-card-h2{
+    text-align: center;
+}
+
+.allatok-card-p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+ 
+
+ .background{
+    background-image: url(../images/animals-html/fako-keselyu.jpeg);
+
+ }*/
+
+ #allatok-focim{
+    text-align: center;
+    color: white;
+
+ }
+
+ .allatok-container{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     margin: 0 auto;
+     max-width: 1480px;
+
+ }
+
+ .allatok-meret{
+    position: relative;
+    width: 20rem;
+    height: 15rem;
+    margin: 10px;
+    background-color:red;
+    border-radius: 15px;
+    position: relative;
+
+ }
+
+
+
+.allat1{
+    background-image: url(../images/animals-html/lama.jpeg);
+
+}
+.allat2{
+    background-image: url(../images/animals-html/oroszlan.jpeg);
+
+}
+.allat3{
+    background-image: url(../images/animals-html/selyem-majom.jpeg);
+
+}
+.allat4{
+    background-image: url(../images/animals-html/tuzpinty.jpeg);
+
+}
+.allat5{
+    background-image: url(../images/animals-html/kiralypapagaj.jpeg);
+
+}
+.allat6{
+    background-image: url(../images/animals-html/fako-keselyu.jpeg);
+}
+.allat7{
+    background-image: url(../images/animals-html/bananpok.jpeg);
+}
+.allat8{
+    background-image: url(../images/animals-html/indiai-skorpio.jpeg);
+}
+.allat9{
+    background-image: url(../images/animals-html/orangutan.jpeg);
+}
+.allat10{
+    background-image: url(../images/animals-html/afrikai-okorbeka.jpeg);
+}
+.allat11{
+    background-image: url(../images/animals-html/elefant.jpg);
+}
+.allat12{
+    background-image: url(../images/animals-html/gyik.jpg);
+}
+.allat13{
+    background-image: url(../images/animals-html/hangya.jpg);
+}
+.allat14{
+    background-image: url(../images/animals-html/koala.jpg);
+}
+.allat15{
+    background-image: url(../images/animals-html/medve.jpg);
+}
+.allat16{
+    background-image: url(../images/animals-html/teknos.jpg);
+}
+.allat17{
+    background-image: url(../images/animals-html/vizilo.jpg);
+}
+.allat18{
+    background-image: url(../images/animals-html/zebra.jpg);
+}
+.allat19{
+    background-image: url(../images/animals-html/pingvin.jpg);
+}
+.allat20{
+    background-image: url(../images/animals-html/krokodil.jpg);
+}
+
+.allatok-meret::after{
+    background-image: linear-gradient(180deg, transparent 50%,rgba(0,0,0,.7));
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.allatok-meret:hover{
+    transform: rotate(0deg);
+    -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes pulse {
+  0% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  50% {
+  -webkit-transform: scale3d(1.05, 1.05, 1.05);
+  transform: scale3d(1.05, 1.05, 1.05);
+  }
+  100% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  }
+  @keyframes pulse {
+  0% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  50% {
+  -webkit-transform: scale3d(1.05, 1.05, 1.05);
+  transform: scale3d(1.05, 1.05, 1.05);
+  }
+  100% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  } 
+
+
+.radius1{
+    transform: rotate(2deg);
+}
+.radius2{
+    transform: rotate(358deg);
+}
+.radius3{
+    transform: rotate(3deg);
+}
+
+.allatok-nev{
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+    z-index: 1;
+
+}
+
+/* Support.html*/
+
+.orokbefogadas-form-container{
+    background-color: rgb(46, 138, 86);
+    width: fit-content;
+    margin: auto;
+    justify-content: center;
+    border-radius: 20px;
+    color: white;
+
+}
+
+.checkbox-container{
+    display: flex;
+    justify-content: center;
+}
+
+.kep-checkbox{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.checkbox-img-size{
+    width: 220px;
+    height: auto;
+    margin: 10px;
+
+}
+
+.orokbefogadas-adatok{
+    margin: 0 auto;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.orokbefogadas-szelesseg{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px orange solid;
+    
+}
+
+.tipus-checkbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.tipusok{
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-right: 5px;
+}
+
+#form-button{
+    margin: 0 auto;
+    border: 0px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 767px) {
+    .dropdown-menu[data-bs-popper] {
+        margin-top: 1.7rem;
+    }
+    .dropdown-menu{
+        margin: -36%
+    }
+    .myButton{
+        margin-right: 3px;
+        
+    }
+
+  }
+
+  @media only screen and (max-width: 650px){
+    .dropdown-menu.show{
+        background: rgba(0, 0, 0, 0);
+    }
+    .navbar{
+        padding-bottom: 10px;
+    }
+    .carousel-item img {
+        min-height: 150px;
+        max-height: 300px;
+        object-fit: cover;
+    }
+    nav{
+        position: static;
+    }
+    #cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       /* margin-top: 5px; */
+    }
+
+    .c-body:before{
+        content: none;
+    }
+
+    .card-edit{
+        margin:0 auto;
+        width: -webkit-fill-available;
+        border-radius: none;
+        border-radius: 0px;
+       /* margin-top: 2px;*/
+    }
+
+    .some-animals{
+        margin: 0;
+    }
+
+    .card-mobile-width{
+        width: 20rem;
+    }
+
+    #jegyvasarlas, #terkep{
+        margin-left: 0px;
+      }
+
+    .flex-container{
+        flex-direction: column;
+        max-width:650px ;
+    }  
+
+    .elso{
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+
+    .masodik{
+        display: none;
+    }
+
+    .footer-data{
+        flex-direction: column;
+    }
+
+    #footer-logo{
+        margin: 0 auto;
+        order: 1;
+    }
+  
+    #footer-m{
+        margin-top: 20px;
+        padding-top: 0px;
+        text-align: center;
+    }
+
+    #opening{
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .footer-p{
+        padding-top: 0px;
+    }
+
+    .bttn{
+        margin-bottom: 20px;
+    }
+
+    #tickets-flex-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #leiras-container{
+        order: 1;
+    }
+
+    .div-button{
+        order: 2;
+    }
+}
+
+  .paralax{
+
+  background-image: url("../images/kis_majom.jpg");
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+
+  @media only screen and (min-width: 1482px){
+        .row-edit{
+            width: 1480px;
+            margin: 0 auto;
+        }
+
+  }
+  
+
+  @media only screen and (max-width: 1921px){
+    .carousel-item img {
+        max-height: 700px;
+        object-fit: cover;
+    }
+  }
+
+  @media only screen and (min-width: 1922px){
+    .carousel-item img {
+        min-height: 1070px;
+        object-fit: cover;
+    }
+
+    .mapouter {
+        position: relative;
+        text-align: right;
+        height: 270px;
+        width: 450px;
+        margin-top: 35px;
+    }
+  }
+
+  @media only screen and (max-width: 858px){
+    .carousel-item img {
+        max-height: 700px;
+        object-fit: cover;
+    }
+
+    .flex-container{
+        flex-direction: column;
+        max-width:650px ;
+    }  
+
+    .masodik{
+        display: none;
+    }
+
+    .footer-data{
+        flex-direction: column;
+    }
+
+    #footer-logo{
+        margin: 0 auto;
+        order: 1;
+    }
+  
+    #footer-m{
+        margin-top: 20px;
+        margin-left: 2px;
+        margin-right: 2px;
+        padding-top: 0px;
+        text-align: center;
+    }
+
+    #opening{
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .footer-p{
+        padding-top: 0px;
+    }
+
+    .bttn{
+        margin-bottom: 20px;
+    }
+}
+  
+@media only screen and (max-width: 858px){
+.mapouter{
+    display: none;
+    
+}
+
+#opening{
+    padding: 0
+}
+
+}
+
+@media only screen and (max-width: 300px){
+    #footer-logo{
+        width: 110px;
+        height: auto;
+    }
+
+   
+}
+@media only screen and (max-width: 1280px){
+.mapouter{
+    display: none;
+}
+}
+
+@media only screen and (max-width: 281px){
+.allatok-meret{
+    width: 15rem;
+}
+
+}
+
+@media only screen and (max-width: 720px){
+    .checkbox-container{
+        flex-direction: column;
+    }
+}

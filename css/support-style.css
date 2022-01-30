@@ -1,0 +1,30 @@
+body{
+    background-image: url(../images/support/hatter.jpg);
+}
+
+nav{
+    position:unset;
+    margin-bottom: 30px;
+}
+
+footer{
+    margin-top: 30px;
+    padding-bottom: 10px;
+}
+
+
+
+h1, h2, h3{
+    text-align: center;
+}
+
+input[type='checkbox'] { 
+    margin-left: 5px;
+}
+
+
+@media only screen and (max-width: 767px){
+    nav{
+        background-color: rgba(46, 138, 86, 1);
+    }
+}
